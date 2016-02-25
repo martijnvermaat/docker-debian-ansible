@@ -15,6 +15,6 @@ ENV LANG en_US.UTF-8
 
 # Install some common dependencies and Ansible
 RUN apt-get install -y sudo curl git python-pip python-dev \
- && pip install ansible==1.9.2 markupsafe
+ && pip install ansible==2.0.1 markupsafe
 
 CMD ["/bin/bash"]
